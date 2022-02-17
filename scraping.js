@@ -12,7 +12,7 @@ var scrapElo = async function (url){
 		const src = await el.getProperty('textContent');
 		const srcTxt = await src.jsonValue();
 		
-		infos[0] = srcTxt.toString().substring(37).replace(/\n/g, "");
+		infos[0] = srcTxt.toString().substring(37).substring(0,10);
 	} catch (error) {
 		console.log(`erro: ${error}`);
 		infos[0] = "Unranked"

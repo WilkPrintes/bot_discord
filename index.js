@@ -25,6 +25,10 @@ client.on('messageCreate', async msg => {
         else
             msg.reply(`----------${msg.content.substring(5)}----------\nElo: ${inf[0]}\nPDL: ${inf[1]}\n`)
     }
+    if(msg.content.startsWith("!hello"))
+    {
+        msg.reply("Bot ta fml\nSó coloca um !elo (teu nick) e ggwp");
+    }
 })
 
 client.login(process.env.token);
