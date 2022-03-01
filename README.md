@@ -1,6 +1,6 @@
 # Bot lol
 
-## Este bot é feito em NodeJS usando:
+## Este bot foi feito usando:
 
 - Node.JS
 - Discord.Js
