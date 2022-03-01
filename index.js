@@ -27,7 +27,7 @@ client.on('messageCreate', async msg => {
     }
     if(msg.content.startsWith("!hello"))
     {
-        msg.reply("Bot ta fml\nSó coloca um !elo (teu nick) e ggwp");
+        msg.reply("Bot ta ON fml (Agora 24/7)\nSó coloca um !elo (teu nick) e GG");
     }
 })
 
