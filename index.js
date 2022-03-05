@@ -38,9 +38,9 @@ client.on('messageCreate', async msg => {
     }
     if(msg.content.startsWith("!help"))
     {
-        msg.reply("!elo (nick), (nick) - Mostra seu Elo e seu PDL.\npode ser passado mais de 1 nick separado por ','");
-        msg.reply("!v - Mostra a versão do bot");
-        msg.reply("!relese - Mostra as novas funções ou atualizações do bot");
+        msg.reply("- !elo (nick), (nick) - Mostra seu Elo e seu PDL.\npode ser passado mais de 1 nick separado por ','");
+        msg.reply("- !v - Mostra a versão do bot");
+        msg.reply("- !relese - Mostra as novas funções ou atualizações do bot");
     }
     if(msg.content.startsWith("!v"))
     {
