@@ -44,7 +44,7 @@ client.on('messageCreate', async msg => {
     }
     if(msg.content.startsWith("!v"))
     {
-        msg.reply("versão: 1.2.2");
+        msg.reply("versão: 1.2.3");
     }
     if(msg.content.startsWith("!relese"))
     {
