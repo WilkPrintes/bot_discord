@@ -10,7 +10,7 @@
 
 ### Para usar basta digitar !elo (seu nick)
 
-# Atualização 1.2.3
+# Atualização 1.2.4
 
 - Modificado o !elo podendo usar mais de 1 nick por vez
 - Adicionado !v (versão do bot), !release (novidades da atualização) e !help (como usar os comandos adicionados)

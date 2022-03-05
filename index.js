@@ -42,11 +42,11 @@ client.on('messageCreate', async msg => {
     }
     if(msg.content.startsWith("!v"))
     {
-        msg.reply("versão: 1.2.3");
+        msg.reply("versão: 1.2.4");
     }
     if(msg.content.startsWith("!release"))
     {
-        msg.reply("- Adicionado !v e !release\n-Atualização no !elo podendo passar mais de 1 nick por vez.");
+        msg.reply("-Novidades V.1.2\n-Adicionado !v e !release\n-Atualização no !elo podendo passar mais de 1 nick por vez.");
     }
 })
 
