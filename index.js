@@ -44,7 +44,7 @@ client.on('messageCreate', async msg => {
     }
     if(msg.content.startsWith("!v"))
     {
-        msg.reply("!elo (nick), (nick) - Mostra seu Elo e seu PDL, pode ser passado mais de 1 nick separado por ','");
+        msg.reply("versão: 1.2.2");
     }
     if(msg.content.startsWith("!relese"))
     {
