@@ -10,9 +10,14 @@
 
 ### Para usar basta digitar !elo (seu nick)
 
+#Atualização 1.2.2
+
+- Modificado o !elo podendo usar mais de 1 nick por vez
+- Adicionado !v (versão do bot), !release (novidades da atualização) e !help (como usar os comandos adicionados)
+
 ## Exemplos:
 
-![App Screenshot](https://i.ibb.co/hHyjSzx/image-2022-03-01-122848.png)
+![App Screenshot](https://i.ibb.co/94y7MMT/imagem-2022-03-05-003802.png)
 
 ## Contribuição
 
