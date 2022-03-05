@@ -38,15 +38,15 @@ client.on('messageCreate', async msg => {
     }
     if(msg.content.startsWith("!help"))
     {
-        msg.reply("- !elo (nick), (nick) - Mostra seu Elo e seu PDL.\npode ser passado mais de 1 nick separado por ','\n- !v - Mostra a versão do bot\n- !relese - Mostra as novas funções ou atualizações do bot");
+        msg.reply("- !elo (nick), (nick) - Mostra seu Elo e seu PDL. Pode ser passado mais de 1 nick separado por ','.\n- !v - Mostra a versão do bot.\n- !relese - Mostra as novas funções ou atualizações do bot.");
     }
     if(msg.content.startsWith("!v"))
     {
-        msg.reply("versão: 1.2.5");
+        msg.reply("versão: 1.2.6");
     }
     if(msg.content.startsWith("!release"))
     {
-        msg.reply("-Novidades V.1.2\n-Adicionado !v e !release\n-Atualização no !elo podendo passar mais de 1 nick por vez.");
+        msg.reply("-Novidades V.1.2\n-Adicionado !v e !release.\n-Atualização no !elo podendo passar mais de 1 nick por vez.");
     }
 })
 
