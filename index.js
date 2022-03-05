@@ -11,7 +11,7 @@ const client = new Client({
 });
 
 client.on('ready', () => {
-    client.user.setActivity("use !help para ver os comandos e como usa-los");
+    client.user.setActivity("!help");
     console.log ("Bot online");
 })
 
