@@ -15,9 +15,13 @@
 - Modificado o !elo podendo usar mais de 1 nick por vez
 - Adicionado !v (versão do bot), !release (novidades da atualização) e !help (como usar os comandos adicionados)
 
-## Exemplos:
+## Exemplo !elo:
 
 ![App Screenshot](https://i.ibb.co/94y7MMT/imagem-2022-03-05-003802.png)
+
+## Outros comandos:
+
+![App Screenshot](https://i.ibb.co/0VMr93T/imagem-2022-03-05-010336.png)
 
 ## Contribuição
 
